@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه جواهرات</title>
+    <style>
+        body{font-family:'Tahoma','Sakkal Majalla'}
+        .container {width: 100%;margin:auto;}
+        header { background: #080808;color: white; padding: 20px 0;text-align: center;}
+        nav{background:#ae0d0d;padding: 10px 0;text-align:right}
+        nav ul{list-style: none;}
+        nav ul li{display:inline;margin-right: 20px;}
+        nav a{ color: white;text-decoration: none ;}
+        .card{float:left;width: 30%;padding: 10px; box-sizing: border-box;}
+         .card img{max-width: 100%;}
+         .card h3{  margin-top: 0;}
+          footer{clear: both; background: #ae0d0d; color:white;text-align: center;padding: 10px 0;margin-top: 20px;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>فروشگاه جواهرات</h1>
+        </header>
+        <nav>
+            <ul>
+
+                <li><a  href="">خانه</a></li>
+                <li><a href=""> بیشترمحصولات</a></li>
+                <li><a href=""> برگشت</a></li>
+                <li><a href="">سبد خرید</a></li>
+                <li><a href="">تماس با ما</a></li>
+            </ul>
+        </nav>
+        <div class="card">
+            <img src="5e82e2eeb3f86.jpg" alt="کفش 1">
+            <h3>گردنبند برلیان زنانه</h3>
+            <p>قیمت: 20.000.000 تومان</p>
+            <button onclick="addToCart(this)">انتخاب محصول</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="1865251678-talab-ir.jpg" alt="کفش 1">
+        <h3>گردنبند طلا سفید زنانه</h3>
+        <p>قیمت: 64.000.000 تومان</p>
+        <button onclick="addToCart(this)">انتخاب محصول</button>
+    </div>
+    <div class="card">
+        <img src="nimset..jpg" alt="کفش 1">
+        <h3>گردنبند مدل برگی  زنانه</h3>
+        <p>قیمت: 12.000.000 تومان</p>
+        <button onclick="addToCart(this)">انتخاب محصول</button>
+    </div>
+    
+        <!-- Repeat for other products -->
+    <footer>
+        <p>تمامی حقوق محفوظ است © 2024 فروشگاه کفش ما</p>
+        <b>ممنون که برای خرید مارا انتخاب کرده اید.</b>
+    </footer>
+    <script>
+        function addToCart(button) {
+            alert('محصول به سبد خرید اضافه شد!');
+        }
+
+        
+    </script>
+   
+
+</body>
+</html>
